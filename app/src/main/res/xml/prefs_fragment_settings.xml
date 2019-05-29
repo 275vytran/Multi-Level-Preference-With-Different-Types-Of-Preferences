@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="SETTINGS">
+
+        <CheckBoxPreference
+            android:title="Turn ON/OFF background music"
+            android:key="key_music_off"
+            android:defaultValue="false" />
+        <SwitchPreference
+            android:title="Turn ON/OFF sound effects"
+            android:key="key_sound_on"
+            android:defaultValue="true"/>
+        <ListPreference
+            android:title="List Preference"
+            android:key="key_list"
+            android:entries="@array/lists"
+            android:entryValues="@array/lists"
+            android:defaultValue="Item One"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

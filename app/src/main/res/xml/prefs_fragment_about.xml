@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="ABOUT">
+
+
+    <EditTextPreference
+        android:title="Username"
+        android:key="key_username"
+        android:summary="Input your username" />
+    <Preference
+        android:title="Music Player"
+        android:summary="Version 1.0"
+        android:selectable="false"/>
+    <Preference
+        android:title="Author: Vy Tran"
+        android:summary="Click to see more information"
+        android:key="key_author"
+        android:selectable="true"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
